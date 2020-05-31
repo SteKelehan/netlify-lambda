@@ -1,0 +1,17 @@
+{
+  "name": "netlify-lambda-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lambda-build": "netlify-lambda build functions",
+    "lambda-serve": "netlify-lambda serve functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "netlify-lambda": "^1.6.3"
+  }
+}
